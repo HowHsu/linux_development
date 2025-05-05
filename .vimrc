@@ -85,7 +85,7 @@ let g:lightline = {
     \ }
 
 " gutentags 设置
-set tags=./.tags;,.tags
+set tags=/work/tags;./.tags;,.tags
 let g:gutentags_project_root = ['.git', '.root', '.svn', '.hg', '.project']
 let g:gutentags_cache_dir = expand('~/workspace/.cache/tags')
 let g:gutentags_modules = []
